@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" 
+href="glowing.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Search bar</title>
+</head>
+<body>
+<ul>
+<li>
+<div class="comtainer">
+ <input id="searchbar"
+   onkeyup="search_artist()"
+   type="text" name="search"
+   placeholder="Search artist...">
+   <section>
+   <img src="Eminem.webp" alt="Avatar">
+   <img src="Kany Garcia.avif" alt="Avatar">
+   <img src="La-india.png" alt="Avatar">
+   <img src="Zion-Lennox.avif.webp" alt="Avatar">
+   </section>
+   <ul id='list'>
+     <li class="artist">Eminem</li>
+     <li class="artist">Doja Cat</li>
+     <li class="artist">La india</li>
+     <li class="artist">Kany Garcia</li>
+  </ul>
+  </div>
+<script src="search.js"</script>
+</body>
+</html>
